@@ -1,0 +1,13 @@
+# 运行产物
+__pycache__/
+*.pyc
+# 检索/核验工作档案 (方法说明见 methods.md, 档案不入仓)
+q*.json
+pmids*.txt
+verify*.txt
+pmc_search.py
+verify_abstracts.py
+# 敏感
+.env
+*token*
+*secret*
