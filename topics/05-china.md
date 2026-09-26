@@ -1,16 +1,21 @@
-# 05 · 中国数据: 牙周是国人最常见的"沉默流行病"
+# 05 · China data: periodontitis as the commonest silent epidemic
 
-> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+> Hierarchy: [← README](../README.md) · Topic-overview layer · entry-level analysis in
+> evidence/. 中文对照见下方各节。
+
+**English summary** — In mainland China 52.8% of adults 35-44 have periodontitis
+(severe 10.6%), rising to 69.3% (severe 37.3%) at 55-64; 9.3% never brush (all-cause
+mortality HR 1.25 in CKB). GBD projects 19.67% of the world's edentulous will be in
+China by 2050. The 35-45 decade is the last window when the severe fraction is still
+~10%. China-specific high-leverage target: areca nut (betel quid) — mRR 10.98 for
+oral/oropharyngeal cancer in Taiwan non-tobacco chewers, ×123 with the smoke+alcohol
+triple, 85.4% of oral submucous fibrosis attributable; zero betel quid is the cheapest
+anti-cancer move in Hunan/Hainan/Taiwan consumption zones.
 
 ## 一句话结论
 
 中国 35-44 岁人群 52.8% 有牙周炎, 55-64 岁 69.3% (重度 37.3%); GBD 预测 2050 年全球无牙人口
 19.67% 在中国 — 护牙不是"个人小事", 是中国人群层面最普遍的健康短板之一。
-
-## TL;DR (EN)
-
-In mainland China, 52.8% of adults 35-44 have periodontitis (69.3% at 55-64; 37.3% severe).
-By 2050, 19.67% of the world's edentulous people are projected to be in China.
 
 ## 关键数字
 
@@ -34,6 +39,6 @@ By 2050, 19.67% of the world's edentulous people are projected to be in China.
 - 槟榔是中国独有的高杠杆防癌靶点: 湖南/海南/台湾消费人群的口腔癌风险升 3-11 倍,
   成本最低的干预就是"零槟榔"; 口腔黏膜变白/张口受限 = OSF 早期, 立即就诊
 
-## 相关条目
+## Entries / 相关条目
 
 T02, T16, T17, T32, T33

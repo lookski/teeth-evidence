@@ -1,16 +1,22 @@
-# 04 · 牙齿与全身病: 牙周是炎症窗口
+# 04 · Systemic links: the periodontium as an inflammation window
 
-> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+> Hierarchy: [← README](../README.md) · Topic-overview layer · entry-level analysis in
+> evidence/. 中文对照见下方各节。
+
+**English summary** — Periodontal inflammation reaches the bloodstream via bacteremia,
+endotoxin and cytokines, and tracks with mortality (RR 1.46), hypertension (causal: MR +
+RCT lowering 24-h SBP 11.1 mmHg), diabetes (bidirectional; therapy lowers HbA1c 0.40%),
+dementia (dose-response +1.1% per lost tooth), severe COVID-19 (ICU OR 3.54), elderly
+pneumonia (oral-care RCT cuts deaths), erectile dysfunction (OR 3.35), RA (citrullination
+paradigm), CKD mortality (32% → 41%), and kidney endpoints in diabetes (ESRD up to 4.9×).
+Causality is hardest for blood pressure; most of the rest is strong association awaiting
+interventional proof — and one honest negative: pregnancy periodontal therapy does not
+reduce preterm birth.
 
 ## 一句话结论
 
 牙周炎症通过菌血症/内毒素/炎症因子入血, 与死亡, 高血压, 糖尿病, 痴呆, 重症感染全面相关;
 因果证据在高血压上最硬 (MR + 降压 RCT), 其余多为"强关联待因果"。
-
-## TL;DR (EN)
-
-Periodontal inflammation links to mortality, hypertension (causal: MR + RCT, -11.1 mmHg),
-diabetes (bidirectional, HbA1c -0.4%), dementia dose-response, and severe infection outcomes.
 
 ## 关键数字
 
@@ -38,6 +44,6 @@ diabetes (bidirectional, HbA1c -0.4%), dementia dose-response, and severe infect
 4. 缺牙修复有认知与营养双重理由 (痴呆剂量反应 + 摄入回补)
 5. 难治性年轻 ED / 不明牙侵蚀 / 不明颈部包块: 分别想到牙周, 反流, 口咽癌
 
-## 相关条目
+## Entries / 相关条目
 
-T01, T03, T04, T06, T07, T10, T12, T30, T31, T34, T35, T36, T39, T44
+T01, T03, T04, T06, T07, T10, T12, T30, T31, T34, T35, T36, T39, T44, T48, T50, T51, T52, T53

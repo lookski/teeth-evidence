@@ -1,183 +1,238 @@
-# 牙齿健康的科学证据手册
+# The Scientific Evidence Handbook for Teeth
 
-> 2026-09-25 编成。检索与统计方法: 见 [methods.md](methods.md)。
-> 全部关键数字逐条摘自论文摘要原文 (Europe PMC), 非人工记忆填写; 摘要截断处标注"见原文"。
+![Entries](https://img.shields.io/badge/evidence_entries-55-2ea44f) ![Sources](https://img.shields.io/badge/abstract_verified_PMIDs-125%2B-blue) ![Searches](https://img.shields.io/badge/search_rounds-13-informational) ![License](https://img.shields.io/badge/license-MIT-green) ![Latest](https://img.shields.io/badge/updated-2026--09--25-success)
+
+**English** · [中文版 (Chinese summary)](README.zh.md) · [Methods](methods.md) · [Full index](evidence/00-index.md) · [IF table](evidence/00-if-table.md)
+
+> An evidence handbook on tooth protection, individual differences, and the
+> "tooth tapping / hard-food exercise" question — 55 entries (T01-T55), every key number
+> transcribed verbatim from paper abstracts (Europe PMC / MEDLINE), 13 search rounds,
+> journal impact factors tagged inline.
 >
-> **通用声明**: 除标注 RCT 外, 大部分证据来自队列研究与 meta 分析, 反映"相关"不等于"因果"。
-> 所有 HR/RR/OR 为相对风险, 数字必须放在 95% CI 里读。口腔健康的个体差异极大 (牙周指标遗传度
-> 38-82%), 任何改变请结合自身情况, 必要时咨询牙医。
+> **Not medical advice.** Read [methods.md](methods.md) for how numbers were verified and
+> how sources are graded. Content licensed MIT; the underlying papers keep their own licenses.
 
----
+> Compiled 2026-09-25. Every key number below was transcribed from paper abstracts via
+> Europe PMC and cross-checked line-by-line — not recalled from memory. Where abstracts
+> truncate a value, entries say "see original".
+>
+> **Standing caveat**: apart from the RCTs flagged below, most evidence is cohort studies
+> and meta-analyses — association, not proven causation. All HR/RR/OR are relative risks;
+> read them with their 95% CIs. Oral-health individuality is large (periodontal measures
+> are 38-82% heritable), so adapt anything here to your own situation and dentist.
 
-## 阅读路线: 三层结构
+## Reading map: three layers
 
 ```
-README.md (本文)      总总结: 结论层 + 导航
- topics/*.md          维度速览: 每维度一页纸, 速查表 + 可执行清单
-evidence/T*.md        逐项分析: 每证据一份, 固定 7 节模板, 数字摘自摘要原文
+README.md (this file)   Conclusions + navigation
+ topics/*.md            One-page overviews per dimension (quick tables + checklists)
+ evidence/T*.md         One entry per study/question, fixed 7-section template
 ```
 
-**先说三个最重要的结论**:
+**The three headline conclusions first**:
 
-- **牙齿是全身病窗口**: 牙周炎全因死亡 RR 1.46 (1.15-1.85), 无牙 1.66 (1.46-1.88);
-  高血压因果链最硬 — MR 支持因果, RCT 显示强化牙周治疗使收缩压额外降 11.1 mmHg (6.5-15.8) ([T01](evidence/T01.md), [T04](evidence/T04.md))
-- **个体差异确实更大**: 牙周临床指标 38-82% 的人群方差可归因遗传, 龋齿进展 30-56%,
-  分开抚养的同卵双胞胎龋齿状态仍显著一致 — "同一家, 同样刷, 牙不同"是生物学现实 ([T28](evidence/T28.md))
-- **叩齿/咬硬物"练牙": 证据为零, 风险有据**: 系统检索找不到任何对照研究; 而咬合创伤
-  官方综述明确"不启动牙周炎, 但炎症下加速破坏", 磨牙症者种植失败 OR 3.83-4.72 —
-  牙稳固靠消炎, 不靠加力 ([T29](evidence/T29.md), [T22](evidence/T22.md), [T24](evidence/T24.md))
+- **Teeth are a window into systemic disease**: periodontitis carries RR 1.46 (1.15-1.85)
+  for all-cause mortality, edentulism 1.66 (1.46-1.88); the causal chain is hardest for
+  blood pressure — MR supports causality and an RCT showed intensive periodontal therapy
+  lowers 24-h systolic pressure by 11.1 mmHg (6.5-15.8) ([T01](evidence/T01.md), [T04](evidence/T04.md))
+- **Individual differences are genuinely large**: 38-82% of population variance in
+  periodontal measures is genetic; caries progression 30-56%; twins raised apart still
+  match on caries — "same family, same brushing, different teeth" is biology, not blame ([T28](evidence/T28.md))
+- **"Tooth tapping / chewing-hard-foods exercise" has zero supporting trials and a solid
+  risk file**: systematic searches find no controlled study; official reviews state occlusal
+  trauma does not initiate periodontitis but accelerates breakdown under inflammation;
+  bruxism raises implant failure odds 3.83-4.72× — tooth stability comes from inflammation
+  control, not loading ([T29](evidence/T29.md), [T22](evidence/T22.md), [T24](evidence/T24.md))
 
-**维度速览入口** ([topics/](topics/)):
+**Topic overviews** ([topics/](topics/)):
 
-| 页 | 维度 | 一句话 |
+| Page | Dimension | One-liner |
 |---|---|---|
-| [00-total](topics/00-total.md) | 总账 | 牙周炎死亡 RR 1.46; 护牙是最便宜的"多病共防" |
-| [01-individual-difference](topics/01-individual-difference.md) | 个体差异 | 牙周遗传度 38-82%, 龋齿 30-56% — 高于多数寿命表型 |
-| [02-tapping-hard-foods](topics/02-tapping-hard-foods.md) | 叩齿与咬硬物 | 对照研究 0 项; 过载证据全部反向 |
-| [03-daily-routine](topics/03-daily-routine.md) | 每日护牙清单 | 含氟牙膏 + 牙缝 + 限糖 + 年检四层 |
-| [04-systemic-links](topics/04-systemic-links.md) | 全身病窗口 | 降压 -11.1 mmHg, 降糖 -0.4% HbA1c, 痴呆剂量反应 |
-| [05-china](topics/05-china.md) | 中国数据 | 35-44 岁牙周炎 52.8%, 中年十年是关键窗口 |
+| [00-total](topics/00-total.md) | The balance sheet | Periodontitis mortality RR 1.46; the cheapest multi-disease prevention |
+| [01-individual-difference](topics/01-individual-difference.md) | Individual differences | Heritability 38-82% periodontal, 30-56% caries |
+| [02-tapping-hard-foods](topics/02-tapping-hard-foods.md) | Tapping / hard foods | 0 controlled trials; all overload evidence points the other way |
+| [03-daily-routine](topics/03-daily-routine.md) | Daily routine | Fluoride + interdental + sugar control + recall visits |
+| [04-systemic-links](topics/04-systemic-links.md) | Systemic links | BP -11.1 mmHg, HbA1c -0.4%, dementia dose-response |
+| [05-china](topics/05-china.md) | China data | 52.8% periodontitis at 35-44 y; the middle-decade window |
 
-逐项分析入口见 [evidence/00-index.md](evidence/00-index.md) (T01-T44 完整索引)。
+Full index: [evidence/00-index.md](evidence/00-index.md) (T01-T55). Journal impact factors
+tagged inline as `[IF ~x]`; see [the IF table](evidence/00-if-table.md) and
+[methods.md](methods.md) for grading.
 
 ---
 
-## 0. 总账: 护牙能换来什么
+## 0. The balance sheet: what protecting teeth buys
 
-| 收益 | 关键数字 (摘要原文) | 来源 |
+| Outcome | Key numbers (from abstracts) | Sources |
 |---|---|---|
-| 死亡 | 牙周炎全因死亡 RR 1.46 (1.15-1.85); 无牙 1.66 (1.46-1.88); 冠心病死亡 2.58 / 脑血管 3.11 | Diaz-Zavala, **J Dent Res** 2021 (PMID 32866427), 57 项研究 571 万人 |
-| 血压 | 强化牙周治疗 vs 对照洁治: 24h 收缩压 -11.1 mmHg (6.5-15.8); MR (75 万人) 支持因果 | Muñoz Aguilera, **Eur Heart J** 2020 (PMID 31504461), n=101 RCT |
-| 血糖 | 牙周治疗使 2 型糖尿病 HbA1c -0.40% (-0.77 到 -0.04); 糖尿病+重度牙周炎者心肾死亡 ×3 | Teeuw, **Diabetes Care** 2010 (PMID 20103557); Taylor, **Diabetologia** 2012 (PMID 22057194) |
-| 痴呆 | 失牙每多 1 颗, 痴呆风险 +1.1%; 中重度牙周炎与痴呆 OR 2.13; 假牙使用者关联消失 | Wu, **JAMDA** 2021 (PMID 34579934); IJERPH 2021 (PMID 34202071) |
-| 心血管事件 | 洗牙者心梗 1.6% vs 未洗牙 2.2% (台湾 7 年队列) | Lee, **Am J Med** 2012 (PMID 22483056) |
-| 老年生存 | 养老院 RCT: 口腔护理显著降低肺炎与肺炎死亡 | Yoneyama, **JAGS** 2002 (PMID 11943036) |
+| Mortality | Periodontitis all-cause RR 1.46 (1.15-1.85); edentulous 1.66 (1.46-1.88); CHD death 2.58 / cerebrovascular 3.11 | Diaz-Zavala, **J Dent Res** [IF ~4.9] 2021 (PMID 32866427) — 57 studies, 5.71M people |
+| Blood pressure | Intensive periodontal therapy vs control: 24-h SBP -11.1 mmHg (6.5-15.8); MR (750k) supports causality | Muñoz Aguilera, **Eur Heart J** [IF ~37.6] 2020 (PMID 31504461), RCT n=101 |
+| Blood sugar | Periodontal therapy: HbA1c -0.40% (-0.77 to -0.04); T2D + severe periodontitis → cardiorenal death ×3 | Teeuw, **Diabetes Care** [IF ~14.9] 2010 (PMID 20103557); Taylor, **Diabetologia** [IF ~8.4] 2012 (PMID 22057194) |
+| Dementia | Each additional lost tooth +1.1% dementia; moderate-severe periodontitis OR 2.13 | Wu, **JAMDA** [IF ~4.0] 2021 (PMID 34579934) |
+| Cardiovascular events | Scaling recipients: MI 1.6% vs 2.2% (Taiwan 7-y cohort) | Lee, **Am J Med** [IF ~4.6] 2012 (PMID 22483056) |
+| Elderly survival | Nursing-home RCT: oral care significantly cut pneumonia and pneumonia deaths | Yoneyama, **J Am Geriatr Soc** [IF ~5.0] 2002 (PMID 11943036) |
 
-**解读**: 牙齿健康的全身价值集中在"慢性炎症"这一通道。它是少数"看一次牙医就能同时管理
-四种慢病风险"的干预入口 — 而且所有这些收益的前提动作 (刷牙, 牙缝, 洁治, 限糖) 成本都极低。
+**Reading**: the systemic value of teeth runs through chronic inflammation. It is one of
+the few single entry points that touches four chronic-disease risks at once — and every
+upstream action (brushing, interdental cleaning, scaling, sugar control) is cheap.
 
 ---
 
-## 1. 每天怎么护牙 (行为层)
+## 1. Daily routine (behavior layer)
 
-| 干预 | 关键数字 (摘要原文) | 来源 |
+| Intervention | Key numbers (from abstracts) | Sources |
 |---|---|---|
-| **含氟牙膏** | Cochrane 96 试验: 1500 ppm vs 无氟, 乳牙龋 MD -1.86 dfs (-2.51 到 -1.21); 浓度越高防龋越强 | Walsh, **Cochrane DB Syst Rev** 2019 (PMID 30829399) |
-| **饮水加氟** | 乳牙 dmft 降 35%, 恒牙降 26%; 无龋儿童 +15%/+14% | Iheozor-Ejiofor, **Cochrane DB Syst Rev** 2015 (PMID 26092033) |
-| **电动牙刷** | SHIP 队列 11 年: 探诊深度进展 -0.09 mm, 附着丧失 -0.19 mm, 蛀牙面进展少 17.7%, 留牙多 19.5% | Grendel, **J Clin Periodontol** 2019 (PMID 31115952) |
-| **牙线** | Cochrane 12 试验: 牙龈炎 6 个月 SMD -0.72 (-1.09 到 -0.35), 效果随时间增强; 龋齿终点无数据; 自用牙线对邻间龋无效 (RR 1.01) | Sambunjak, **Cochrane** 2011 (PMID 22161438); Hujoel, **J Dent Res** 2006 (PMID 16567548) |
-| **菌斑控制 30 年 (天花板)** | 375 人维护 30 年: 人均失牙 0.4-1.8 颗, 因牙周炎/龋失牙仅 21 颗 | Axelsson, **J Clin Periodontol** 2004 (PMID 15312097) |
-| **专业洁治** | 台湾队列: 洗牙与心血管事件下降相关 (心梗 1.6% vs 2.2%) | Lee, **Am J Med** 2012 (PMID 22483056) |
+| **Fluoride toothpaste** | Cochrane 96 trials: 1,500 ppm vs no-fluoride, primary-teeth caries MD -1.86 dfs (-2.51 to -1.21); higher concentration → more protection | Walsh, **Cochrane DB Syst Rev** [IF ~7.9] 2019 (PMID 30829399) |
+| **Water fluoridation** | dmft -35%, DMFT -26%; caries-free children +15%/+14% | Iheozor-Ejiofor, **Cochrane** [IF ~7.9] 2015 (PMID 26092033) |
+| **Powered toothbrush** | SHIP cohort 11 y: pocket-depth progression -0.09 mm, attachment loss -0.19 mm, caries-face progression -17.7%, more teeth retained +19.5% | Grendel, **J Clin Periodontol** [IF ~4.1] 2019 (PMID 31115952) |
+| **Floss** | Cochrane 12 trials: gingivitis 6-mo SMD -0.72 (-1.09 to -0.35), grows with practice; self-flossing ineffective for interproximal caries (RR 1.01) | Sambunjak, **Cochrane** [IF ~7.9] 2011 (PMID 22161438) |
+| **30-y plaque program (ceiling)** | 375 adults, 30-y maintenance: 0.4-1.8 teeth lost per person | Axelsson, **J Clin Periodontol** [IF ~4.1] 2004 (PMID 15312097) |
+| **Professional scaling** | Taiwan cohort: scaling associated with fewer CV events (MI 1.6% vs 2.2%) | Lee, **Am J Med** [IF ~4.6] 2012 (PMID 22483056) |
+| **Sealants** | Resin sealant vs none, permanent molars: OR 0.12 (0.08-0.19) at 24 mo | Cochrane [IF ~7.9] 2017 (PMID 28759120) |
 
-**落地**: 四层配方 = 含氟牙膏 2 次/天 + 每天牙缝清洁 + 每年 1-2 次洁治 + 高风险者加密。
-电动牙刷是小而实的升级; 牙线的效果是"练出来的" (手法比工具重要)。
+**Takeaway**: the four-layer formula = fluoride toothpaste 2×/day + daily interdental
+cleaning + scaling 1-2×/year + tighter recall for high-risk. Powered brushes are a small
+real upgrade; flossing skill is trained, not bought.
 
 ---
 
-## 2. 吃与喝 (饮食层)
+## 2. Eating and drinking (diet layer)
 
-| 暴露 | 关键数字 (摘要原文) | 来源 |
+| Exposure | Key numbers (from abstracts) | Sources |
 |---|---|---|
-| **游离糖** | WHO SR 55 研究: <10% 能量时龋更低 (中等质量); 成人 SSB 每天 1-2 杯, 4 年净 DMFT +31% (1.02-1.67); 含氟牙膏不改变该关联 | Moynihan, **J Dent Res** 2014 (PMID 24323509); Bernabé, **J Dent** 2014 (PMID 24813370) |
-| **酸性饮料** | 蚀深随 pH 对数加深; CaF2 饱和 (氟 3-8 ppm) 仅降 pH>3 饮料蚀深 28%, pH<3 时氟无效; 内源性途径: GERD 患者 TWI +0.66 (P=0.004) | Lussi, **Caries Res** 1999 (PMID 9831784); Larsen, **Caries Res** 2002 (PMID 11961335); **Int J Dent** 2012 (PMID 22194748) |
-| **无糖口香糖** | SR 9 项: 7 项防龋阳性 (餐后嚼最有效, 机制=唾液刺激+不产酸); 木糖醇全部方案不致龋; 定量锚点: 100% 木糖醇丸剂龋率 RR 0.27 (0.20-0.36), 蔗糖口香糖反升 20% | Zero, **JADA** 2006 (PMID 16521385); Desai, **J Appl Oral Sci** 2007 (PMID 19089107); Makinen, **J Dent Res** 1995 (PMID 8600188) |
+| **Free sugars** | WHO SR 55 studies: caries lower when <10% energy (moderate quality); adults 1-2 SSB servings/day, 4-y net DMFT +31% (1.02-1.67) | Moynihan, **J Dent Res** [IF ~4.9] 2014 (PMID 24323509); Bernabé, **J Dent** [IF ~4.4] 2014 (PMID 24813370) |
+| **Acidic drinks** | Erosion deepens log-linearly with pH; CaF2 saturation protects only above pH 3; endogenous route: GERD patients TWI +0.66 (P=0.004) | Lussi, **Caries Res** [IF ~3.0] 1999 (PMID 9831784); Larsen, **Caries Res** [IF ~3.0] 2002 (PMID 11961335); **Int J Dent** [IF ~2.0] 2012 (PMID 22194748) |
+| **Sugar-free gum** | SR: 7/9 trials positive for caries prevention; quantitative anchor: 100% xylitol pellet RR 0.27 (0.20-0.36), sucrose gum +20% | Zero, **JADA** [IF ~2.9] 2006 (PMID 16521385); Desai, **J Appl Oral Sci** [IF ~1.4] 2007 (PMID 19089107); Makinen, **J Dent Res** [IF ~4.9] 1995 (PMID 8600188) |
 
-**落地**: 糖看"频率"不看只看总量 (两餐间不喝甜饮); 无糖 ≠ 无害 (酸蚀独立通路, 喝完漱口, 30 分钟后再刷);
-嚼无糖口香糖是"咀嚼训练"里唯一有临床终点阳性的形态 (选 100% 木糖醇配方); 不明原因牙侵蚀尤其舌腭面 → 想到胃食管反流, 内科转诊优先。
+**Takeaway**: sugar is about frequency, not just amount (no sweet drinks between meals);
+"sugar-free" ≠ harmless (erosion is a separate pathway — rinse, then brush 30 min later);
+xylitol gum is the only "chewing exercise" form with clinical-endpoint support.
 
 ---
 
-## 3. 叩齿与咬硬物: 传统"练牙"法的证据审查 (重点)
+## 3. Tapping and hard-food chewing: an evidence audit (key question)
 
-| 论断 | 证据状态 | 来源 |
+| Claim | Evidence status | Sources |
 |---|---|---|
-| 叩齿使牙齿稳固 | **对照研究 0 项** (tooth tapping / percussion / 叩齿 全部穷尽, 仅命中神经反射与诊断文献) | 本专题检索 (q2-q6) |
-| 咬合力"锻炼"牙周 | 官方综述: 咬合创伤**不启动**牙周炎或附着丧失; 炎症共存时弱证据加速破坏; 大鼠实验证实附着丧失与破骨细胞增加 | Harrel, **J Periodontol** 2018 (PMID 29926937); **J Periodontal Res** 2014 (PMID 23808820) |
-| 牙松动了"练一练"? | 两大队列: 初始动度越大治疗反应越差; 规范牙周治疗后动度显著下降 — 松动的主因是炎症 | Nyman, **JCP** 1980 (PMID 6938529); **J Periodontol** 1982 (PMID 6754904) |
-| 咬硬物伤牙吗 | 磨牙症 (自然过载实验): 种植修复失败 OR 3.83 (2.12-6.94) / 4.72 (2.66-8.36); 牙磨损关联多数研究无或弱 | Chrcanovic, **CIDRR** 2016 (PMID 25726844); **J Dent** 2024 (PMID 38574847) |
-| 咬合力致颈部缺损 (abfraction)? | 批判综述: 除体外实验外无临床证据, 假说成分; 颈部缺损主因 = 横向大力刷牙 + 酸蚀 | **J Dent Res** 2006 (PMID 16567549); **JADA** 2004 (PMID 15387049) |
-| 咀嚼有生理作用吗 | 有: PET 显示咀嚼使感觉运动区脑血流 +25-28% (但这是口香糖实验, 与空咬叩击不同) | Onozuka 组, **Arch Oral Biol** 1997 (PMID 9134116) |
+| Tapping firms teeth | **0 controlled trials** (tooth tapping / percussion / 叩齿 exhausted) | This handbook's search (methods.md §2) |
+| Occlusal loading "trains" the periodontium | Official review: trauma does **not initiate** periodontitis; weak evidence it accelerates breakdown when inflammation coexists; rat data confirm | Harrel, **J Periodontol** [IF ~3.5] 2018 (PMID 29926937); **J Periodontal Res** [IF ~2.6] 2014 (PMID 23808820) |
+| "Train" a loose tooth? | Two cohorts: baseline mobility predicts worse treatment response; mobility falls with proper periodontal therapy — mobility is inflammation-driven | Nyman, **JCP** [IF ~4.1] 1980 (PMID 6938529); **J Periodontol** [IF ~3.5] 1982 (PMID 6754904) |
+| Does hard food damage teeth? | Bruxism (natural overload experiment): implant failure OR 3.83 (2.12-6.94) / 4.72 (2.66-8.36) | Chrcanovic, **CIDRR** [IF ~2.5] 2016 (PMID 25726844) |
+| Abfraction (stress lesions)? | Critical review: no clinical evidence beyond in-vitro; cervical lesions are brushing + acid, not "training" | **J Dent Res** [IF ~4.9] 2006 (PMID 16567549) |
+| Any physiology to chewing? | Yes: mastication raises sensorimotor cortical blood flow +25-28% — measured with gum, not empty-mouth tapping | Onozuka group, **Arch Oral Biol** [IF ~2.8] 1997 (PMID 9134116) |
 
-**结论**: "叩齿"处于证据真空 (连观察性阳性研究都没有), 而"过大力伤牙"的反向证据链完整。
-对牙周炎/松动/磨牙症人群, 叩齿与咬硬物的风险是实在的。正确姿势: 消炎 (治牙周) + 功能性使用
-(双侧咀嚼, 嚼无糖口香糖, 缺牙修复) + 不过度负荷。详见 [topics/02](topics/02-tapping-hard-foods.md)。
+**Verdict**: tapping sits in an evidence vacuum (not even observational positives), while
+the "excess force damages" file is complete. For periodontitis / mobility / bruxism, the
+risk is real. The correct posture: treat inflammation + functional use (two-sided chewing,
+sugar-free gum, replace missing teeth) + avoid overload. Details:
+[topics/02](topics/02-tapping-hard-foods.md).
 
 ---
 
-## 4. 个体差异: 牙齿是"天赋差距"最大的领域之一 (重点)
+## 4. Individual differences: teeth are a high-heritability domain (key question)
 
-| 项目 | 关键数字 (摘要原文) | 来源 |
+| Item | Key numbers (from abstracts) | Sources |
 |---|---|---|
-| 牙周指标遗传度 | 龈炎/探诊深度/附着丧失/菌斑: 38%-82% 人群方差归因遗传 (110 对双生子, 含 14 对分开抚养同卵) | Michalowicz, **J Periodontol** 1991 (PMID 2072240) |
-| 龋齿进展遗传度 | 总 H = 30.0; 严重度 H = 36.1; 深牙本质病变 H = 46.4-56.2 (硬终点最高) (314 对双生子纵向) | Wang, **J Dent Res** 2005 (PMID 16246939) |
-| 分开抚养双生子 | 存在牙数/修复比例/龋齿状态在分开抚养同卵双生间仍显著一致 (97 人) | Boraas, **J Dent Res** 1988 (PMID 3165997) |
-| 现代 GWAS | 龋齿 47 个新独立风险位点; 与吸烟/教育/性格/代谢性状遗传架构部分重叠 | Shungin, **Nat Commun** 2019 (PMID 31235808) |
-| 环境放大器 | 糖尿病使牙周炎易感 ×3; 吸烟 RR 1.85 (戒烟后复原至 0.97) | PMID 22057194; PMID 30011036 |
+| Periodontal heritability | Gingivitis / probing depth / attachment loss / plaque: 38-82% of variance genetic (110 twin pairs, incl. 14 MZ raised apart) | Michalowicz, **J Periodontol** [IF ~3.5] 1991 (PMID 2072240) |
+| Caries-progression heritability | Total H = 30.0; severity 36.1; deep-dentinal lesions 46.4-56.2 (314 twins, longitudinal) | Wang, **J Dent Res** [IF ~4.9] 2005 (PMID 16246939) |
+| Twins raised apart | Tooth count / restorations / caries still significantly concordant (97 subjects) | Boraas, **J Dent Res** [IF ~4.9] 1988 (PMID 3165997) |
+| Modern GWAS | 47 novel caries loci; genetic architecture overlaps smoking, education, metabolism | Shungin, **Nat Commun** [IF ~16.6] 2019 (PMID 31235808) |
+| Environmental multipliers | Diabetes ×3 periodontitis susceptibility; smoking RR 1.85 (ex-smokers revert to 0.97) | PMID 22057194; PMID 30011036 |
 
-**结论**: 与"延长寿命"手册里多数因素 (遗传度通常 <25%) 相比, 口腔表型的遗传度结构性偏高 —
-"是否个体差异更大"的答案为是。含义有二: ① 牙口差不是道德问题; ② 高风险者 (家族史/口干/
-糖尿病/吸烟/矫正器) 需要上调维护频率, 把遗传风险的"兑现率"压下去。
+**Verdict**: vs most longevity traits (heritability usually <25%), oral phenotypes are
+structurally higher — so yes, individual differences are larger. Two implications: ① poor
+teeth are not a moral failure; ② high-risk people (family history, dry mouth, diabetes,
+smoking, braces) need denser maintenance to suppress the genetic "realization rate".
 
 ---
 
-## 5. 中国数据
+## 5. China data
 
-| 项目 | 关键数字 (摘要原文) | 来源 |
+| Item | Key numbers (from abstracts) | Sources |
 |---|---|---|
-| 牙周炎患病 | 35-44 岁 52.8% (重度 10.6%); 55-64 岁 69.3% (重度 37.3%); 65-74 岁 64.6% (重度 43.5%) | 第四次全国口腔健康流调, **J Clin Periodontol** 2021 (PMID 33103285) |
-| 从不刷牙 | 9.3%; 全因死亡 HR 1.25 (1.21-1.28), 出血性卒中 1.18, 肝硬化 1.25 | CKB, **Eur J Clin Invest** 2021 (PMID 34152010) |
-| 2050 预测 | 全球无牙人口的 19.67% 将在中国 | GBD 2021, **J Periodontal Res** 2024 (PMID 39192495) |
+| Periodontitis prevalence | 35-44 y: 52.8% (10.6% severe); 55-64 y: 69.3% (37.3% severe); 65-74 y: 64.6% (43.5%) | 4th National Oral Health Survey, **J Clin Periodontol** [IF ~4.1] 2021 (PMID 33103285) |
+| Never-brushing | 9.3%; all-cause mortality HR 1.25 (1.21-1.28), hemorrhagic stroke 1.18 | CKB, **Eur J Clin Invest** [IF ~3.2] 2021 (PMID 34152010) |
+| 2050 projection | 19.67% of the world's edentulous will be in China | GBD 2021, **J Periodontal Res** [IF ~2.6] 2024 (PMID 39192495) |
 
-**解读**: 中国人的牙周问题呈"过半患病 + 中年陡增"形态; 35-45 岁是把重度比例压在 10% 的最后窗口。
+**Reading**: Chinese periodontal health is "over-half prevalence + steep midlife escalation";
+age 35-45 is the last window to keep the severe fraction near 10%.
 
 ---
 
-## 5b. 口腔癌与槟榔 (中国高杠杆靶点)
+## 5b. Oral cancer & betel quid (the highest-leverage target in China)
 
-| 项目 | 关键数字 (摘要原文) | 来源 |
+| Item | Key numbers (from abstracts) | Sources |
 |---|---|---|
-| **槟榔 (台湾) → 口腔/口咽癌** | mRR 10.98 (4.86-24.84, 不加烟); 印度次大陆 BQ+T 7.74; 女性高达 14.56 | Guha, **Int J Cancer** 2014 (PMID 24302487) |
-| **三联暴露 (烟+酒+槟榔)** | 口腔癌风险为不沾者的 123 倍 | Ko, **J Oral Pathol Med** 1995 (PMID 8600280) |
-| **OSF/OL 归因** | 口腔黏膜下纤维化 85.4%, 白斑 73.2% 归因槟榔 | Wang, **Br J Cancer** 2003 (PMID 12569378) |
-| **全球负担** | 2022 年 120,200 例 (30.8%, 95% UI 29.6-31.9) 口腔癌归因无烟烟草+槟榔; 77% 为男性 | Lancet Oncol 2024 (PMID 39393386) |
-| **牙周炎 → 口腔鳞癌** | meta OR 3.53 (1.52-8.23); 韩国病例对照 aOR 3.66 (男性 6.55, 失牙多者 9.99) [T33] | Tumour Biol 2014 (PMID 24756759); **J Dent Res** 2019 (PMID 30779879) |
-| **HPV 双轴** | HPV+ 口咽癌为独立流行病学实体; 两大 III 期 RCT 确认顺铂仍标准 | Lancet 2019 (PMID 30449625/30449623) |
+| **Betel quid (Taiwan) → oral/oropharyngeal cancer** | mRR 10.98 (4.86-24.84) without tobacco; India BQ+T 7.74; women up to 14.56 | Guha, **Int J Cancer** [IF ~5.0] 2014 (PMID 24302487) |
+| **Triple exposure (smoke+alcohol+BQ)** | Oral cancer ×123 vs abstainers | Ko, **J Oral Pathol Med** [IF ~2.7] 1995 (PMID 8600280) |
+| **OSF/OL attribution** | 85.4% of oral submucous fibrosis, 73.2% of leukoplakia attributable to BQ | Wang, **Br J Cancer** [IF ~6.3] 2003 (PMID 12569378) |
+| **Global burden** | 120,200 oral cancers in 2022 (30.8%) attributable to smokeless tobacco + areca nut; 77% male | **Lancet Oncol** [IF ~50.0] 2024 (PMID 39393386) |
+| **Periodontitis → OSCC** | Meta OR 3.53 (1.52-8.23); Korea case-control aOR 3.66 | Tumour Biol [IF ~2.3] 2014 (PMID 24756759); **J Dent Res** [IF ~4.9] 2019 (PMID 30779879) |
+| **HPV dual axis** | HPV+ oropharyngeal cancer is a distinct entity; two phase-III RCTs keep cisplatin standard | **Lancet** [IF ~168.9] 2019 (PMID 30449625/30449623) |
 
-**解读**: 槟榔是国际癌症研究机构 1 类致癌物, 湖南海南台湾等地消费人群的口腔癌风险升 3-11 倍,
-而干预动作只需"零槟榔" — 这是本专题性价比最高的防癌项。口腔黏膜变白/张口受限 = OSF 早期信号。
+**Reading**: areca nut is an IARC group-1 carcinogen; in Hunan/Hainan/Taiwan consumption
+zones the cheapest anti-cancer action is "zero betel quid". White patches or limited mouth
+opening = early OSF — see a doctor immediately.
 
 ---
 
-## 5c. 种植, 修复与特殊人群 (把牙保住的下半场)
+## 5c. Implants, prosthetics and special populations (keeping teeth for life)
 
-| 项目 | 关键数字 (摘要原文) | 来源 |
+| Item | Key numbers (from abstracts) | Sources |
 |---|---|---|
-| **种植体周炎** | 瑞典人群 9 年: 45% 患者 (中重度 14.5%); meta 患者水平 19.53% | **J Dent Res** 2016 (PMID 26701919); BMC Oral Health 2022 (PMID 36261829) |
-| **种植预防唯一实证** | 患者菌斑控制 + 专业维护; 无定期维护的黏膜炎者进展风险上升 | Jepsen, **JCP** 2015 共识 (PMID 25626479) |
-| **磨牙症管理** | 咬合垫减磨牙活动但不停止; BTX-A (4 RCT) 有效且安全; 无金标准 | **J Oral Rehabil** 2015 (PMID 26095208); Med Oral 2019 (PMID 31246937) |
-| **药物性口干** | 56 种高证据物质, 覆盖 9/14 大类; 口干→龋/营养不良/吞咽困难 | Wolff, **Drugs R D** 2017 (PMID 27853957) |
-| **刷牙过猛** | 硬刷史退缩面 9.4% vs 4.7%, 随频率上升; 3 年 RCT 电动=手动 (已有退缩均减) | **J Periodontol** 1993 (PMID 8229627); **JCP** 2015/2016 (PMID 25495508/26810391) |
-| **木糖醇定量** | 40 个月双盲队列: 100% 木糖醇丸剂龋率 RR 0.27 (0.20-0.36); 蔗糖口香糖反而 +20% | Makinen, **J Dent Res** 1995 (PMID 8600188) |
-| **失牙与营养** | 牙列恶化→营养素摄入下降 (独立于年龄烟酒); 新义齿+饮食指导 RCT 蛋白摄入显著升 | **JADA** 1998 (PMID 9766107); **Clin Nutr** 2018 (PMID 28830699) |
-| **牙科恐惧** | 极恐惧者 29.2% 陷入"延迟-重症-症状驱动"三联 (无恐惧者 11.6%); 牙恐惧症 3.7% 为各恐惧症之首 | Armfield, **BMC Oral Health** 2007 (PMID 17222356); **Eur J Oral Sci** 2009 (PMID 19320722) |
-| **智齿冠周炎** | 高危形态: 垂直位 51% + 75% 软组织覆盖 + 平邻牙咬合面 (57%); 重度疼痛一周 28% | **Clin Oral Investig** 2008 (PMID 17619915); **JOMS** 2008 (PMID 19022127) |
-| **牙周炎 → ED** | 台湾全人群 32,856 例: OR 3.35 (3.25-3.45); 治疗 RCT 3 个月 IIEF 改善 | **JCP** 2012 (PMID 22509774); **JCP** 2013 (PMID 23252455) |
-| **失牙与营养 (队列)** | 638 名男性: 牙列恶化 → 营养素摄入递减 | **JADA** 1998 (PMID 9766107) |
+| **Peri-implantitis** | Sweden 9-y: 45% of patients (14.5% moderate/severe); meta patient-level 19.53% | **J Dent Res** [IF ~4.9] 2016 (PMID 26701919); BMC Oral Health [IF ~2.6] 2022 (PMID 36261829) |
+| **Only proven prevention** | Patient plaque control + professional maintenance; no regular support → progression risk rises | Jepsen, **JCP** [IF ~4.1] 2015 consensus (PMID 25626479) |
+| **Bruxism management** | Splints reduce activity but don't stop bruxism; BTX-A effective in 4 RCTs; no gold standard | **J Oral Rehabil** [IF ~2.8] 2015 (PMID 26095208); Med Oral 2019 (PMID 31246937) |
+| **Medication-induced dry mouth** | 56 substances (high evidence) across 9/14 ATC classes; dry mouth → caries, malnutrition | Wolff, **Drugs R D** [IF ~2.4] 2017 (PMID 27853957) |
+| **Overbrushing** | Hard-brush history: recession 9.4% vs 4.7% of surfaces, frequency-dependent; 3-y RCT: powered = manual on existing recession | **J Periodontol** [IF ~3.5] 1993 (PMID 8229627); **JCP** [IF ~4.1] 2015/2016 (PMID 25495508/26810391) |
+| **Xylitol quantified** | 40-mo double-blind cohort: 100% xylitol pellet caries RR 0.27 (0.20-0.36); sucrose gum +20% | Makinen, **J Dent Res** [IF ~4.9] 1995 (PMID 8600188) |
+| **Tooth loss → nutrition** | 638 men: nutrient intake falls with dentition breakdown; new dentures + dietary advice RCT raises protein intake | **JADA** [IF ~2.9] 1998 (PMID 9766107); **Clin Nutr** [IF ~5.4] 2018 (PMID 28830699) |
+| **Dental fear** | Very-fearful 29.2% in "delay-severe-symptom-driven" triad vs 11.6% fear-free; dental phobia 3.7% tops phobia list | Armfield, **BMC Oral Health** [IF ~2.6] 2007 (PMID 17222356); **Eur J Oral Sci** [IF ~2.3] 2009 (PMID 19320722) |
+| **Pericoronitis** | High-risk morphology: vertical impaction 51% + 75% soft-tissue coverage + occlusal-plane level 57% | **Clin Oral Investig** [IF ~3.2] 2008 (PMID 17619915); **JOMS** [IF ~2.2] 2008 (PMID 19022127) |
+| **Periodontitis → ED** | Taiwan 32,856 cases: OR 3.35 (3.25-3.45); therapy RCT improves IIEF | **JCP** [IF ~4.1] 2012 (PMID 22509774); **JCP** [IF ~4.1] 2013 (PMID 23252455) |
+| **Tooth loss cohort (nutrition)** | 638-men VA longitudinal | **JADA** [IF ~2.9] 1998 (PMID 9766107) |
 
-**解读**: 种植不是终点而是维护合同的开始 (牙周炎史=首要风险, 磨牙=力过载, 两者都要管理;
-牙科恐惧三联 29.2% vs 11.6% [T42], 牙周-ED 与心血管同轴 [T35], 营养通路见 [T36]);
-老年多药口干是根面龋放大器; 刷牙"认真"过度会伤牙颈。这半场决定牙齿能否真的保到老。
-
----
-
-## 6. 证据分层与注意事项
-
-- **RCT 证据**: 牙周治疗降压 (T04), 口腔护理防肺炎 (T10), 含氟牙膏与水氟 (T15), 牙线 (T20)
-- **队列/meta 证据**: 死亡 (T01), 刷牙 (T02/T05), 糖尿病 (T07), 痴呆 (T12), 遗传度 (T28), 槟榔 (T32), 种植体周炎 (T37), 木糖醇 (T41)
-- **机制/体外/动物**: 病原入脑 (T12), 脑血流 (T13), 咬合创伤 (T22), 酸蚀 (T27), GERD 侵蚀 (T34)
-- **负结果 (重要)**: 叩齿对照研究 0 项 (T29); abfraction 临床证据缺失 (T25); 自用牙线对龋齿无效 (T20); 孕期牙周治疗不降早产 (T31: 奠基 OR 7.9 → NEJM RCT 12.0% vs 12.8% + PIPS 双 RCT 阴性)
-- 所有相对风险 (HR/RR/OR) 必须带 CI 阅读; 本手册数字均摘自 Europe PMC 摘要原文, 方法见 [methods.md](methods.md)。
+**Reading**: an implant is the start of a maintenance contract (periodontal history = top
+risk; bruxism = overload; manage both); polypharmacy dry mouth amplifies root caries;
+"thorough" brushing can hurt cervical enamel. This half determines whether teeth actually
+last.
 
 ---
 
-*2026-09-25 编成。检索与统计方法见 [methods.md](methods.md)。*
+## 6. Round-3 additions (prevention procedures, RA/kidney/obesity, oral frailty, X-ray doses)
+
+| Item | Key numbers (from abstracts) | Sources |
+|---|---|---|
+| **Sealants** | Cochrane 38 RCTs: resin sealant vs none OR 0.12 (0.08-0.19) at 24 mo | [T45](evidence/T45.md) |
+| **Fluoride varnish** | 2×/year in toddlers: counseling-only OR 3.77 (1.88-7.58) vs varnish | [T46](evidence/T46.md) |
+| **Root caries, 5,000 ppm F** | Active lesions 1.05 vs 2.55; arrested 2.13 vs 0.61; prevented fraction 40-42% | [T49](evidence/T49.md) |
+| **Orthodontic white spots** | New WSL incidence 45.8%, prevalence 68.4%; front-loaded first 6 months | [T47](evidence/T47.md) |
+| **E-cigarettes** | Not harmless: SR reports deteriorating periodontal/dental risk; meta BOP MD -14.2 but I²=99% | [T48](evidence/T48.md) |
+| **RA (autoimmunity)** | P. gingivalis PAD → citrullination paradigm; periodontal therapy lowers DAS28 | [T50](evidence/T50.md) |
+| **CKD mortality** | CKD 3-5: 10-y mortality 32% → 41% with periodontitis (≈ diabetes' 43%) | [T51](evidence/T51.md) |
+| **Obesity** | Meta OR 1.35 (1.05-1.75); ages 18-34: OR 2.21 | [T52](evidence/T52.md) |
+| **Oral frailty** | Swallowing deterioration → frailty OR 10.2 (5.4-19.1); ~60% elders have oral hypofunction | [T53](evidence/T53.md) |
+| **Dental X-rays** | FMX ≈ 34.9 µSv; bitewings ≈ days of background; doses fell 86-96% since 1940s | [T54](evidence/T54.md) |
+| **Water flossers** | Adjunct for bleeding gums, ortho/implant access; manufacturer-funded evidence base | [T55](evidence/T55.md) |
+
+---
+
+## 7. Evidence tiers and cautions
+
+- **RCT tier**: periodontal therapy lowers BP (T04); oral care prevents pneumonia (T10);
+  fluoride toothpaste/water (T15); floss (T20); sealants (T45); varnish (T46); root-caries
+  5,000 ppm paste (T49)
+- **Cohort/meta tier**: mortality (T01), brushing (T02/T05), diabetes (T07), dementia (T12),
+  heritability (T28), betel quid (T32), peri-implantitis (T37), xylitol (T41)
+- **Mechanism/in-vitro/animal**: pathogen-to-brain (T12), cerebral blood flow (T13),
+  occlusal trauma (T22), erosion (T27), GERD (T34)
+- **Negative results (important)**: tapping — 0 trials (T29); abfraction — no clinical
+  evidence (T25); self-flossing — no caries benefit (T20); pregnancy periodontal therapy —
+  does not reduce preterm birth (T31, NEJM + PIPS)
+- All relative risks must be read with their CIs; numbers were transcribed from abstracts
+  (methods.md), never recalled.
+
+---
+
+*Compiled 2026-09-25. Chinese summary: [README.zh.md](README.zh.md). Methods and source
+grading: [methods.md](methods.md).*

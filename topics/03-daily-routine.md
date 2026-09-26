@@ -1,16 +1,20 @@
-# 03 · 每日护牙清单: 行为-工具-饮食-专业维护四层
+# 03 · Daily routine: behavior, tools, diet, professional care (four layers)
 
-> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+> Hierarchy: [← README](../README.md) · Topic-overview layer · entry-level analysis in
+> evidence/. 中文对照见下方各节。
+
+**English summary** — Four evidence-backed layers: (1) behavior — fluoride toothpaste
+1,350-1,500 ppm twice daily, spit don't rinse; (2) tools — powered brushes add a small real
+long-term gain (11-y cohort: fewer teeth lost, less caries-face progression), interdental
+cleaning skill beats gadget price; (3) diet — sugar frequency over amount (WHO SR:
+caries lower below 10% energy; SSB 1-2 servings/day → +31% DMFT in 4 y), erosion control
+(rinse, wait 30 min, then brush); (4) professional — scaling 1-2×/year plus periodontal
+exams; the 30-year Axelsson program (0.4-1.8 teeth lost/person) is the ceiling.
 
 ## 一句话结论
 
 护牙方案分四层, 每层都有硬证据: 行为 (每天刷 2 次含氟牙膏), 工具 (电动有小增益, 牙线靠手法),
 饮食 (限糖频率 + 防酸蚀), 专业 (每年洁治 + 牙周检查)。
-
-## TL;DR (EN)
-
-Four evidence-backed layers: fluoride toothpaste 2x daily (Cochrane), interdental cleaning,
-sugar-frequency and acid control (WHO SR), and annual professional scaling/co-care.
 
 ## 关键数字
 
@@ -39,6 +43,6 @@ sugar-frequency and acid control (WHO SR), and annual professional scaling/co-ca
 9. 种植后每年维护含探诊出血评估; 磨牙者定制咬合垫; 多药老人审查口干
 10. 怕牙医: 主动告知恐惧史, 做"不痛访视"打断 29.2% 恶性循环
 
-## 相关条目
+## Entries / 相关条目
 
-T08, T14, T15, T18, T19, T20, T21, T27, T37, T38, T39, T40, T41, T42
+T08, T14, T15, T18, T19, T20, T21, T27, T37, T38, T39, T40, T41, T42, T45, T46, T47, T54, T55

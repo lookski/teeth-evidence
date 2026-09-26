@@ -31,6 +31,9 @@
 - `T42`: 牙科恐惧的恶性循环
 - `T43`: 智齿冠周炎 (高危形态 + QoL)
 - `T44`: HPV 与口咽癌 (双轴病因范式)
+- `T45`-`T55` (第三轮扩展, 英文条目): 预防程序 (窝沟封闭 T45 / 涂氟 T46 / 正畸白斑 T47),
+  新全身关联 (电子烟 T48 / 类风湿 T50 / 慢性肾病 T51 / 肥胖 T52), 口腔衰弱与舌压 (T53),
+  牙科 X 线剂量 (T54), 冲牙器 (T55)
 
 ## 条目清单
 
@@ -80,8 +83,22 @@
 | T42 | 牙科恐惧恶性循环: 三联 29.2% vs 11.6% | 电话调查 + 恐惧流调 | 横断面 | [evidence/T42.md](T42.md) |
 | T43 | 智齿冠周炎: 垂直位+软组织瓣=高危 | 横断面 + QoL | 横断面 | [evidence/T43.md](T43.md) |
 | T44 | HPV 与口咽癌: 双轴病因范式 | III 期 RCT x2 + 综述 | RCT | [evidence/T44.md](T44.md) |
+| T45 | Pit-and-fissure sealants (Cochrane 2017): OR 0.12 | SR + meta (38 RCT) | RCT/meta | [evidence/T45.md](T45.md) |
+| T46 | Fluoride varnish in toddlers: counseling-only OR 3.77 | 2-y blinded RCT | RCT | [evidence/T46.md](T46.md) |
+| T47 | Orthodontic white-spot lesions: 45.8% incidence | meta (14 studies) + cohorts | meta | [evidence/T47.md](T47.md) |
+| T48 | E-cigarettes and oral health: not a free pass | SR + 3-way cross-section + meta | SR/meta | [evidence/T48.md](T48.md) |
+| T49 | Root caries & 5,000 ppm fluoride: arrest 2.13 vs 0.61 | RCT + preventive fraction | RCT | [evidence/T49.md](T49.md) |
+| T50 | Periodontitis and rheumatoid arthritis: PAD/citrullination | mechanism + case-control + RCT | RCT | [evidence/T50.md](T50.md) |
+| T51 | Periodontitis and CKD: 10-y mortality 32% to 41% | NHANES III mortality + meta | cohort | [evidence/T51.md](T51.md) |
+| T52 | Obesity and periodontitis: ages 18-34 OR 2.21 | updated meta (2022) | meta | [evidence/T52.md](T52.md) |
+| T53 | Oral frailty and tongue pressure: frailty OR 10.2 | position paper + cohorts | cohort | [evidence/T53.md](T53.md) |
+| T54 | Dental X-rays: FMX ~34.9 uSv, doses fell 86-96% | dosimetry + 7-decade trend | dosimetry | [evidence/T54.md](T54.md) |
+| T55 | Water flossers: adjunct for bleeding gums | RCT + single-use trials | RCT | [evidence/T55.md](T55.md) |
 
 ## 核验记录
 
 本目录原工作档案 (检索词 json, PMID 清单, 摘要核验输出) 未入仓;
-检索式与筛选流程见根目录 [methods.md](../methods.md)。
+检索式与筛选流程见根目录 [methods.md](../methods.md)。共 13 轮检索 (q1-q13),
+候选 PMID 分 8 批逐篇调取摘要核对; 第三轮扩展 (T45-T55) 基于 q12/q13 检索面。
+各条目来源期刊的影响因子以 `[IF ~x]` 内联标注, 汇总表见 [00-if-table.md](00-if-table.md)
+(2024 JCR 近似值, 仅作来源权重参考)。

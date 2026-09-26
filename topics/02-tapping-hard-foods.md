@@ -1,18 +1,23 @@
-# 02 · 叩齿与咬硬物: 传统"练牙"法的现代证据审查
+# 02 · Tooth tapping and hard-food chewing: an evidence audit
 
-> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+> Hierarchy: [← README](../README.md) · Topic-overview layer · entry-level analysis in
+> evidence/. 中文对照见下方各节。
+
+**English summary** — "Tooth tapping" (empty-mouth percussive exercise) and hard-food
+"training" have **zero controlled trials** supporting any strengthening effect (exhaustive
+Europe PMC search, English + Chinese keywords). Reverse evidence is consistent: occlusal
+overload on inflamed periodontium accelerates attachment loss (official review; rat data),
+baseline mobility predicts worse treatment response (mobility is inflammation-driven and
+falls with therapy), and bruxism raises implant-failure odds 3.83-4.72×. The correct
+posture: control inflammation, use teeth functionally (two-sided chewing, sugar-free gum,
+replace missing teeth), avoid overload. The only physiology-adjacent positive: chewing
+gum raises sensorimotor cortical blood flow +25-28% — measured with gum, not tapping.
 
 ## 一句话结论
 
 "叩齿" (空口咬合敲击) 与咬硬物锻炼在同行评议医学文献里**没有任何对照研究支持其对牙齿稳固有效**
 (检索负结果); 而反向证据一致: 过大/异常咬合力在有炎症的牙周上是加速破坏剂, 种植领域磨牙症者
 失败率 OR 3.83-4.72 — "练牙"方向错了: 牙稳固靠消炎, 不靠加力。
-
-## TL;DR (EN)
-
-No controlled study of tooth-tapping exercise exists (systematic Europe PMC search, zero hits).
-Conversely, occlusal overload on inflamed periodontium accelerates attachment loss, and bruxism
-raises implant failure odds 3.83-4.72x. Tooth stability comes from inflammation control, not loading.
 
 ## 关键数字
 
@@ -44,6 +49,6 @@ raises implant failure odds 3.83-4.72x. Tooth stability comes from inflammation 
 - 本条目是"流行说法 → 证据审查"的典型样本: 与维生素 C 条目 (观察阳性 → MR 阴性 → RCT 无效) 不同,
   叩齿连"观察阳性"层都没有, 直接是证据真空 + 机制反证
 
-## 相关条目
+## Entries / 相关条目
 
 T13, T21, T22, T23, T24, T25, T29, T38, T40, T43

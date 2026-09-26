@@ -1,17 +1,20 @@
-# 00 · 总账: 为什么值得护牙, 护牙能换来什么
+# 00 · The balance sheet: why protect teeth, and what it buys
 
-> 层级: [← 总结 README](../README.md) · 本页 = 维度速览层 · 逐条分析见 evidence/ 对应条目
+> Hierarchy: [← README](../README.md) · This page = topic-overview layer · entry-level
+> analysis in evidence/. 中文对照见下方各节。
+
+**English summary** — Oral health is a triple lever on systemic disease, quality of life
+and individual difference: periodontitis carries RR 1.46 (1.15-1.85) and edentulism RR
+1.66 (1.46-1.88) for all-cause mortality; intensive periodontal therapy lowers 24-h
+systolic pressure by 11.1 mmHg (RCT); ~60% of Chinese adults 35-44 already have
+periodontitis. A 30-year maintenance ceiling loses 0.4-1.8 teeth per person. Tooth
+protection is cheap, evidence-based and highly individual — keep 20+ functioning teeth
+for life and the whole systemic-inflammation cascade gets cheaper to manage.
 
 ## 一句话结论
 
 牙齿健康是"全身病风险 × 生活质量 × 个体差异"三重杠杆: 牙周炎与全因死亡 RR 1.46, 无牙 1.66;
 好牙口是能保住"吃到老, 嚼到老, 说到老"的结构性资产。
-
-## TL;DR (EN)
-
-Teeth link to systemic health: periodontitis RR 1.46 and edentulism RR 1.66 for all-cause mortality;
-blood pressure falls 11.1 mmHg after intensive periodontal therapy (RCT); heritability of periodontal
-measures runs 38-82%. Tooth protection is cheap, evidence-based, and highly individual.
 
 ## 关键数字
 
@@ -50,4 +53,4 @@ measures runs 38-82%. Tooth protection is cheap, evidence-based, and highly indi
 
 ## 相关条目
 
-T01-T44 (全部)
+T01-T55 (全部)
