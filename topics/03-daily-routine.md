@@ -8,7 +8,8 @@
 long-term gain (11-y cohort: fewer teeth lost, less caries-face progression), interdental
 cleaning skill beats gadget price; (3) diet — sugar frequency over amount (WHO SR:
 caries lower below 10% energy; SSB 1-2 servings/day → +31% DMFT in 4 y), erosion control
-(rinse, wait 30 min, then brush); (4) professional — scaling 1-2×/year plus periodontal
+(rinse, **wait 1 h**, then brush — in situ: 0.258 um loss brushing immediately vs 0.195 um
+after 60 min, P<0.001); (4) professional — scaling 1-2×/year plus periodontal
 exams; the 30-year Axelsson program (0.4-1.8 teeth lost/person) is the ceiling.
 
 ## 一句话结论
@@ -35,7 +36,8 @@ exams; the 30-year Axelsson program (0.4-1.8 teeth lost/person) is the ceiling.
 1. 巴氏刷牙法, 软毛, 2 分钟×2 次/天; 刷后吐掉牙膏不大量漱口
 2. 每天 1 次牙缝清洁 (间隙刷优先于牙线, 尤其牙周患者); 牙线要 C 形包绕刮面
 3. 手动刷不干净 → 电动 (小而实的长期增益)
-4. 甜饮/酸性饮料: 频率优先于总量, 两餐间不喝, 喝完漱口, 30 分钟后再刷
+4. 甜饮/酸性饮料: 频率优先于总量, 两餐间不喝, 喝完漱口, **等 1 小时后再刷** (T56:
+   立即刷磨损 0.258 um, 60 分钟后 0.195 um, p<0.001)
 5. 餐后无法刷牙 → 无糖 (木糖醇) 口香糖 (选 100% 木糖醇丸剂, RR 0.27)
 6. 每年 1-2 次洁治; 牙龈出血/口臭/牙变长/松动 → 牙周科而非"再观察"
 7. 特殊人群: 正畸/种植/糖尿病/妊娠/口干 → 维护频率上调; 老人每餐后口腔护理
@@ -45,4 +47,5 @@ exams; the 30-year Axelsson program (0.4-1.8 teeth lost/person) is the ceiling.
 
 ## Entries / 相关条目
 
-T08, T14, T15, T18, T19, T20, T21, T27, T37, T38, T39, T40, T41, T42, T45, T46, T47, T54, T55
+T08, T14, T15, T18, T19, T20, T21, T27, T37, T38, T39, T40, T41, T42, T45, T46, T47, T54, T55,
+T56, T57, T58, T59, T60, T77, T78, T79, T80, T81, T82, T83, T86

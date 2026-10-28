@@ -53,4 +53,4 @@ for life and the whole systemic-inflammation cascade gets cheaper to manage.
 
 ## 相关条目
 
-T01-T55 (全部)
+T01-T90 (全部); 社交媒体热点说法逐条核查见 [06-hot-topics](06-hot-topics.md)

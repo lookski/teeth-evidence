@@ -1,12 +1,12 @@
 # The Scientific Evidence Handbook for Teeth
 
-![Entries](https://img.shields.io/badge/evidence_entries-55-2ea44f) ![Sources](https://img.shields.io/badge/abstract_verified_PMIDs-125%2B-blue) ![Searches](https://img.shields.io/badge/search_rounds-13-informational) ![License](https://img.shields.io/badge/license-MIT-green) ![Latest](https://img.shields.io/badge/updated-2026--09--25-success)
+![Entries](https://img.shields.io/badge/evidence_entries-90-2ea44f) ![Sources](https://img.shields.io/badge/abstract_verified_PMIDs-160%2B-blue) ![Searches](https://img.shields.io/badge/search_rounds-14-informational) ![License](https://img.shields.io/badge/license-MIT-green) ![Latest](https://img.shields.io/badge/updated-2026--10--28-success)
 
 **English** · [中文版 (Chinese summary)](README.zh.md) · [Methods](methods.md) · [Full index](evidence/00-index.md) · [IF table](evidence/00-if-table.md)
 
 > An evidence handbook on tooth protection, individual differences, and the
-> "tooth tapping / hard-food exercise" question — 55 entries (T01-T55), every key number
-> transcribed verbatim from paper abstracts (Europe PMC / MEDLINE), 13 search rounds,
+> "tooth tapping / hard-food exercise" question — 90 entries (T01-T90), every key number
+> transcribed verbatim from paper abstracts (Europe PMC / MEDLINE), 14 search rounds,
 > journal impact factors tagged inline.
 >
 > **Not medical advice.** Read [methods.md](methods.md) for how numbers were verified and
@@ -54,8 +54,9 @@ README.md (this file)   Conclusions + navigation
 | [03-daily-routine](topics/03-daily-routine.md) | Daily routine | Fluoride + interdental + sugar control + recall visits |
 | [04-systemic-links](topics/04-systemic-links.md) | Systemic links | BP -11.1 mmHg, HbA1c -0.4%, dementia dose-response |
 | [05-china](topics/05-china.md) | China data | 52.8% periodontitis at 35-44 y; the middle-decade window |
+| [06-hot-topics](topics/06-hot-topics.md) | Social-media claims | 11 popular claims checked: brushing timing, oil pulling, fluoride, charcoal, mouthwash, floss |
 
-Full index: [evidence/00-index.md](evidence/00-index.md) (T01-T55). Journal impact factors
+Full index: [evidence/00-index.md](evidence/00-index.md) (T01-T90). Journal impact factors
 tagged inline as `[IF ~x]`; see [the IF table](evidence/00-if-table.md) and
 [methods.md](methods.md) for grading.
 
@@ -217,22 +218,51 @@ last.
 
 ---
 
+## 6b. Round-4 additions: social-media hot topics (T56-T90)
+
+Eleven widely-shared claims, each checked against primary literature. Verdicts and key numbers:
+
+| Claim | Verdict | Key numbers | Sources |
+|---|---|---|---|
+| Brush right after eating | **Wrong for acidic food** | Immediate brushing 0.258 um loss vs 0.195 um after 60 min (p<0.001) | [T56](evidence/T56.md) |
+| Toothbrush stiffness matters | Thin evidence | 12 brands, 20,000 strokes; abstract reports no numeric results | [T57](evidence/T57.md) |
+| Oil pulling replaces mouthwash | Partly true, "detox" false | PI 1.67 vs 0.2% CHX 1.61; stain 0.21 vs 0.47; only 4 RCTs / 182 people | [T58](evidence/T58.md), [T59](evidence/T59.md), [T77](evidence/T77.md) |
+| Water fluoridation safe & effective | Benefit real, bias severe | dmft -35%, DMFT -26%; >97% high risk of bias; aesthetic fluorosis ~12% | [T61](evidence/T61.md), [T62](evidence/T62.md) |
+| Fluoride lowers children's IQ | Association, not settled | Boys: -4.49 IQ (-8.38 to -0.60) per 1 mg/L MUFSG; observational | [T63](evidence/T63.md), [T64](evidence/T64.md), [T65](evidence/T65.md) |
+| Charcoal toothpaste whitens | Mostly false | dE 3.3 in all three groups (P=0.884); one study +17.7% (P=0.023) | [T66](evidence/T66.md), [T67](evidence/T67.md), [T68](evidence/T68.md) |
+| Whitening toothpaste works | False vs ordinary paste | 12 wk: whitening paste = conventional paste; rinses & 10% CP higher | [T69](evidence/T69.md), [T70](evidence/T70.md), [T71](evidence/T71.md) |
+| Alcohol mouthwash causes cancer | Credible for heavy use | >=3x/day OR 3.23 (1.68-6.19); ADH7 interaction p=0.065 | [T72](evidence/T72.md), [T73](evidence/T73.md), [T74](evidence/T74.md) |
+| Mouthwash affects blood pressure | **True (antibacterial)** | Systolic +2.3 mmHg (0.5-4.0), randomised crossover; rats: effect abolished | [T75](evidence/T75.md), [T76](evidence/T76.md) |
+| Baking soda cleans/whitens | Mild adjunct | Plaque DiffM -0.20 (-0.27 to -0.12); no gain over fluoride alone | [T79](evidence/T79.md), [T80](evidence/T80.md), [T81](evidence/T81.md) |
+| Floss is useless, use ID brushes | True where gaps exist | ID brush 2.15 vs floss 2.47; crossover 1.22 vs 1.71 vs 2.32 | [T82](evidence/T82.md), [T83](evidence/T83.md) |
+| Oral microbiome governs whole-body health | Framing sound, claims not | Three reviews, no effect sizes; counterexample HR 0.2 badly confounded | [T87](evidence/T87.md), [T88](evidence/T88.md), [T89](evidence/T89.md), [T84](evidence/T84.md) |
+
+**Common failure mode**: treating "has a mechanism" as "has an effect", and a small short-term
+positive trial as a conclusion. Full page: [topics/06-hot-topics.md](topics/06-hot-topics.md).
+
+---
+
 ## 7. Evidence tiers and cautions
 
 - **RCT tier**: periodontal therapy lowers BP (T04); oral care prevents pneumonia (T10);
   fluoride toothpaste/water (T15); floss (T20); sealants (T45); varnish (T46); root-caries
-  5,000 ppm paste (T49)
+  5,000 ppm paste (T49); oil pulling vs chlorhexidine (T58, T77); antibacterial mouthwash and
+  blood pressure (T75)
 - **Cohort/meta tier**: mortality (T01), brushing (T02/T05), diabetes (T07), dementia (T12),
-  heritability (T28), betel quid (T32), peri-implantitis (T37), xylitol (T41)
+  heritability (T28), betel quid (T32), peri-implantitis (T37), xylitol (T41), water
+  fluoridation reviews (T61, T62), fluoride neurotoxicity cohorts (T63-T65)
 - **Mechanism/in-vitro/animal**: pathogen-to-brain (T12), cerebral blood flow (T13),
-  occlusal trauma (T22), erosion (T27), GERD (T34)
+  occlusal trauma (T22), erosion (T27), GERD (T34), brush stiffness (T57), charcoal and
+  whitening studies (T66-T71), dietary nitrate in rats (T76)
 - **Negative results (important)**: tapping — 0 trials (T29); abfraction — no clinical
   evidence (T25); self-flossing — no caries benefit (T20); pregnancy periodontal therapy —
-  does not reduce preterm birth (T31, NEJM + PIPS)
+  does not reduce preterm birth (T31, NEJM + PIPS); education-only community programmes —
+  no caries reduction (T85); charcoal vs ordinary paste — no difference (T67); baking soda
+  adds nothing to fluoride (T80)
 - All relative risks must be read with their CIs; numbers were transcribed from abstracts
   (methods.md), never recalled.
 
 ---
 
-*Compiled 2026-09-25. Chinese summary: [README.zh.md](README.zh.md). Methods and source
-grading: [methods.md](methods.md).*
+*Compiled 2026-09-25; round-4 expansion 2026-10-28. Chinese summary: [README.zh.md](README.zh.md).
+Methods and source grading: [methods.md](methods.md).*

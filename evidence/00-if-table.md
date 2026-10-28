@@ -37,3 +37,14 @@
 | Angle Orthod | 2.5 | Oral Dis | 3.0 |
 | J Int Soc Prev Community Dent | 2.0 | Front Endocrinol | 3.9 |
 | Am J Orthod (alt. form) | 2.8 | Int J Dent (alt. form) | 2.0 |
+| Heliyon | 3.4 | JAMA Pediatr | 13.0 |
+| Complement Ther Med | 2.4 | Environ Health Perspect | 10.1 |
+| Niger Med J | 1.0 | Environ Int | 11.8 |
+| Indian J Dent Res | 1.0 | Nat Rev Microbiol | 69.2 |
+| Oral Oncol | 4.8 | Periodontol 2000 | 17.5 |
+| Am J Hypertens | 3.3 | Free Radic Biol Med | 7.1 |
+| Microorganisms | 4.1 | Int J Mol Sci | 4.9 |
+| J Am Coll Nutr | 2.4 | Int J Dent Hyg | 2.0 |
+| J Conserv Dent | 1.3 | Dent Res J (Isfahan) | 1.5 |
+| Oper Dent | 1.9 | Br Dent J | 4.2 |
+| Cancer Res | 12.5 | TheScientificWorldJournal | 2.0 |
